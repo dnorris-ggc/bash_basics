@@ -1,5 +1,14 @@
 #!/bin/sh
 
+echo "Enter the width in pixels"
+read width
+echo "Enter the height in pixels"
+read height
+
+product=$(( width*height ))
+
+echo "The area is $product"
+
 echo "Enter your first number"
 read first
 echo "Enter your second number"
